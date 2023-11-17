@@ -1,6 +1,6 @@
 function FormHeader() {
    return (
-      <div>
+      <div className="form-items">
          <h1>Sign UP</h1>
          <p>Create account by filling the form below</p>
       </div>

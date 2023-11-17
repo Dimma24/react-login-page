@@ -1,14 +1,17 @@
 function Form() {
    return (
-      <form action="#">
+      <form action="#" className="form-items">
          <input type="text" placeholder="Enter Name" />
          <br />
          <input type="email" placeholder="ozommadimma@gmail.com" />
          <br />
          <input type="number" placeholder="Enter phone number" />
          <br />
-         <input type="text" placeholder="Enter Name" />
+         <input type="text" placeholder="Enter D.O.B" />
          <br />
+         <input type="text" placeholder="Enter pan number" />
+         <br />
+         <input type="text" placeholder="Enter adhear number" />
       </form>
    );
 }

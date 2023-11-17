@@ -1,5 +1,5 @@
 function Button() {
-   return <button>Create an Account</button>;
+   return <button className="form-items">Create an Account</button>;
 }
 
 export default Button;
