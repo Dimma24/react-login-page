@@ -1,6 +1,6 @@
 function Form() {
    return (
-      <form action="#" className="form-items">
+      <form action="#">
          <input type="text" placeholder="Enter Name" />
          <br />
          <input type="email" placeholder="ozommadimma@gmail.com" />
