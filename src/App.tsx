@@ -2,14 +2,13 @@ import Form from "./components/Form";
 import FormHeader from "./components/FormHeader";
 import Button from "./components/Button";
 import "./styles/App.css";
-// import Images from "./assets/Images/unsplash.png";
+import unsplashImage from "./assets/Images/unsplash.png";
 function App() {
    return (
       <div className="form-items">
          <FormHeader />
-         <img src="./assets/Images/unsplash.png" alt="human-head"></img>
+         <img src={unsplashImage} alt="Unsplash" />
          <Form />
-         {/* <Images /> */}
          <Button />
       </div>
    );
