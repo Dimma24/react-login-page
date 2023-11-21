@@ -1,17 +1,18 @@
+import Input from "./components/Input";
 function Form() {
    return (
       <form action="#">
-         <input type="text" placeholder="Enter Name" />
+         <Input type="text" placeholder="Enter Name" />
          <br />
-         <input type="email" placeholder="ozommadimma@gmail.com" />
+         <Input type="email" placeholder="ozommadimma@gmail.com" />
          <br />
-         <input type="number" placeholder="Enter phone number" />
+         <Input type="number" placeholder="Enter phone number" />
          <br />
-         <input type="text" placeholder="Enter D.O.B" />
+         <Input type="text" placeholder="Enter D.O.B" />
          <br />
-         <input type="text" placeholder="Enter pan number" />
+         <Input type="text" placeholder="Enter pan number" />
          <br />
-         <input type="text" placeholder="Enter adhear number" />
+         <Input type="text" placeholder="Enter adhara number" />
       </form>
    );
 }
