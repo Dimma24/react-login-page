@@ -10,9 +10,21 @@ function App() {
       <div className="form-items">
          <FormHeader />
          <img src={unsplashImage} alt="Unsplash" />
-         <Form />
-         <Input />
-         <Button />
+         <Form action="#">
+            <Input type="text" placeholder="Enter Name" />
+            <br />
+            <Input type="email" placeholder="ozommadimma@gmail.com" />
+            <br />
+            <Input type="number" placeholder="Enter phone number" />
+            <br />
+            <Input type="text" placeholder="Enter D.O.B" />
+            <br />
+            <Input type="text" placeholder="Enter pan number" />
+            <br />
+            <Input type="text" placeholder="Enter adhara number" />
+         </Form>
+
+         <Button label="Create an Account" />
       </div>
    );
 }
