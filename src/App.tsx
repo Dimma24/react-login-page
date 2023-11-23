@@ -10,7 +10,7 @@ function App() {
       <div className="form-items">
          <FormHeader />
          <img src={unsplashImage} alt="Unsplash" />
-         <Form action="#">
+         <form action="#">
             <Input type="text" placeholder="Enter Name" />
             <br />
             <Input type="email" placeholder="ozommadimma@gmail.com" />
@@ -22,7 +22,7 @@ function App() {
             <Input type="text" placeholder="Enter pan number" />
             <br />
             <Input type="text" placeholder="Enter adhara number" />
-         </Form>
+         </form>
 
          <Button label="Create an Account" />
       </div>
